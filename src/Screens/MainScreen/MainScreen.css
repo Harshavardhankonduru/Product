@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .thead{
+        display: flex;
+        flex-direction: column;
+    }
+    .td{
+        font-weight: 1000;
+    }
+    .InputContainer{
+        width: 60%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 10px;
+    }
+    .ActionsColumn{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+ 
+}
